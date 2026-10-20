@@ -1,0 +1,18 @@
+{
+    "mcpServers": {
+        "memex": {
+            "type": "http",
+            "url": "https://memex.garden/api/mcp"
+        },
+        "memex-realtime": {
+            "type": "stdio",
+            "command": "node",
+            "args": [
+                "${GROK_PLUGIN_ROOT}/mcp/realtime-server.mjs"
+            ],
+            "env": {
+                "MEMEX_REALTIME_STATE_DIR": "${GROK_PLUGIN_DATA}"
+            }
+        }
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "name": "memex-grok",
+    "version": "2026.8.26",
+    "description": "Connect Grok Build to Memex for saved-knowledge search, URL indexing and retrieval, and cloud handoff runs.",
+    "author": {
+        "name": "Memex",
+        "email": "info@worldbrain.io",
+        "url": "https://memex.garden"
+    },
+    "homepage": "https://memex.garden",
+    "repository": "https://github.com/WorldBrain/memex-grok",
+    "license": "MIT",
+    "keywords": ["memex", "grok", "mcp", "search", "knowledge-management"],
+    "experimental": {
+        "monitors": "./monitors/monitors.json"
+    }
+}
