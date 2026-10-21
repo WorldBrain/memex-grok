@@ -1,7 +1,7 @@
 {
     "name": "memex-grok",
-    "version": "2026.8.26",
-    "description": "Connect Grok Build to Memex for saved-knowledge search, URL indexing and retrieval, and cloud handoff runs.",
+    "version": "2026.10.21",
+    "description": "Connect Grok Build to the hosted Memex MCP with native OAuth for saved-knowledge search, URL indexing and retrieval.",
     "author": {
         "name": "Memex",
         "email": "info@worldbrain.io",
@@ -10,8 +10,5 @@
     "homepage": "https://memex.garden",
     "repository": "https://github.com/WorldBrain/memex-grok",
     "license": "MIT",
-    "keywords": ["memex", "grok", "mcp", "search", "knowledge-management"],
-    "experimental": {
-        "monitors": "./monitors/monitors.json"
-    }
+    "keywords": ["memex", "grok", "mcp", "search", "knowledge-management"]
 }
